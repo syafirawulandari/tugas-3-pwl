@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Tugas 3 Pemrograman WEB Lanjut 2023
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ini adalah repositori aplikasi web tugas individu 3 pemrograman web lanjut 2023. Aplikasi ini dibangun dengan bahasa pemrograman [Javascript](https://www.javascript.com/) dan menggunakan bantuan [node.js](https://nodejs.org/en) serta library [React.js](https://react.dev/).
 
-## Available Scripts
+## Menjalankan Aplikasi
 
-In the project directory, you can run:
+Sebelum anda memulai, pastikan bahwa anda telah melakukan instalasi [git](https://git-scm.com/) (Perlu diperhatikan bahwa Git dan Github adalah dua aplikasi yang berbeda!) dan [node.js](https://nodejs.org/en) pada komputer anda. Jika sudah, anda dapat menjalankan aplikasi ini. Silahkan ikuti langkah-langkah berikut:
 
-### `npm start`
+### Clone Repositori
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Anda dapat langsung melakukan clone pada repositori ini dengan menempelkan command dibawah ini:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+git clone myurl
+```
 
-### `npm test`
+Ini akan menambah direktori tugas ini kedalam direktori anda. Jika proses clone telah selesai, silahkan masuk pada direktori tugas-3-pwl dengan menempelkan command berikut pada terminal atau command prompt windows anda:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+cd tugas-3-pwl
+```
 
-### `npm run build`
+### Instalasi Depedensi dan Kebutuhan Aplikasi
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Anda diharuskan untuk melakukan instalasi depedensi dengan menggunakan command berikut pada terminal:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm i
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Pada tahap ini akan memakan waktu berkisar antara 5-10 menit (Tergantung oleh kecepatan internet yang Anda miliki)
 
-### `npm run eject`
+### Jalankan Aplikasi (Dev Mode)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Anda dapat menjalan aplikasi ini dalam mode pengembangan dengan menggunakan command berikut:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Tunggu hingga komputer anda membuka tab browser baru yang mengarahkan anda pada tautan [http://localhost:3000](http://localhost:3000). Jika tidak ada langkah yang dilewatkan, Anda akan dapat melihat tampilan beranda aplikasi pada browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Testing Aplikasi
 
-## Learn More
+Terdapat beberapa testing yang dibuat untuk menguji beberapa komponen pada aplikasi, anda dapat menjalan testing dengan memasukkan perintah berikut pada terminal atau command prompt windows:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm test
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Sebelumnya telah dilakukan testing pada hampir keseluruhan komponen dengan hasil yang diperoleh adalah komponen yang diuji dapat ditampilkan dengan baik.
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+###### Safira Wulandari
 
-### Analyzing the Bundle Size
+###### 120140XXX
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+###### safira.120140XXX@student.itera.ac.id
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Modifikasi untuk kebutuhan industri tanpa seizin author dapat dijatuhi hukuman paling maksimal jomblo sampai umur 30 tahun dan denda sebesar satu kontainer mixue.
