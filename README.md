@@ -11,7 +11,7 @@ Sebelum anda memulai, pastikan bahwa anda telah melakukan instalasi [git](https:
 Anda dapat langsung melakukan clone pada repositori ini dengan menempelkan command dibawah ini:
 
 ```
-git clone myurl
+git clone https://github.com/syafirawulandari/tugas-3-pwl.git
 ```
 
 Ini akan menambah direktori tugas ini kedalam direktori anda. Jika proses clone telah selesai, silahkan masuk pada direktori tugas-3-pwl dengan menempelkan command berikut pada terminal atau command prompt windows anda:
